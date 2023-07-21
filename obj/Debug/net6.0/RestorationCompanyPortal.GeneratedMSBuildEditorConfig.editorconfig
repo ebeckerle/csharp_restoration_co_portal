@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = P:\Workspace\Coding\C-Sharp\RestorationCoProj\RestorationCompanyPortal
 build_property._RazorSourceGeneratorDebug = 
 
+[P:/Workspace/Coding/C-Sharp/RestorationCoProj/RestorationCompanyPortal/Views/Events/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [P:/Workspace/Coding/C-Sharp/RestorationCoProj/RestorationCompanyPortal/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
