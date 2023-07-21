@@ -2,6 +2,7 @@
 
 namespace RestorationCompanyPortal.Controllers
 {
+    [Route("/helloworld")]
     public class HelloController : Controller
     {
         //[HttpGet]
@@ -13,11 +14,11 @@ namespace RestorationCompanyPortal.Controllers
         //}
 
         [HttpGet]
-        [Route("/helloworld")]
+        //[Route("/helloworld")]
         public IActionResult Index()
         {
-            string html = "<form method='post' action='/helloworld/welcome'>"+
-                "<input type='text' name='name' />"+
+            string html = "<form method='post' action='/helloworld/welcome'>" +
+                "<input type='text' name='name' />" +
                 "<input type='submit' value='Greet Me!' />" +
                 "</form>";
             return Content(html, "text/html");
@@ -33,8 +34,8 @@ namespace RestorationCompanyPortal.Controllers
 
 
         //POST : /<controller>/welcome
-        [HttpPost]
-        [Route("/helloworld/welcome")]
+        [HttpPost("welcome")]
+        [HttpGet("welcome/{name?}")]
         public IActionResult Welcome(string name = "World")
         {
             return Content("<h1>Welcome to my App, " + name + "!</h1>", "text/html");
